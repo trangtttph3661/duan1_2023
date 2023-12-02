@@ -1,0 +1,226 @@
+@font-face {
+    font-family: 'roboto';
+    src: url('./font/Roboto-BoldItalic.ttf');
+}
+*{
+    margin: 0px;
+    margin: 0px;
+}
+.container{
+    width: 1440px;
+    margin-left: 40px;
+    font-family: 'roboto';
+}
+header .menu-1{
+    display: flex;
+    height: 60px;   
+    background-color: #D9D9D9;
+    font-size: 13px;
+}
+header .menu-1 p{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.dangky > a{
+    text-decoration: none;
+}
+.dangnhap > a{
+    text-decoration: none;
+}
+header .menu-1 .dangky{
+    margin-left: 960px;   
+}
+.dangky{
+    margin-top: 20px;
+}
+.dangnhap{
+    margin-top: 20px;
+}
+header .menu-1 .dangnhap{
+    margin-left: 20px;
+}
+header .menu-2{
+    height: 100px;
+    display: flex;
+}
+header .menu-2 .logo img{
+    width: 140px;
+    height: 100px;
+    margin-left: 40px;
+    margin-right: 240px
+}
+header .menu-2 ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 40px;
+}
+header .menu-2 ul li a{
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 20px;
+    color: black;
+    -webkit-transition-duration: 0.5s; 
+    /* Safari */  
+    transition-duration: 0.5s;
+}
+header .menu-2 ul li a:hover{
+    color: red;
+    font-size: 25px;
+}
+header .timkiem{
+    margin-top: 35px;
+    margin-left: 230px;
+}
+header .timkiem img{
+    width: 30px;
+}
+header .giohang{
+    margin-top: 35px;
+    margin-left: 20px;
+    
+}
+header .giohang img{
+    width: 30px;
+}
+
+
+main .tong{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+main .nd1{
+    margin-left: 70px;
+}
+main .nd1 .pro{
+    font-size: 25px;
+}
+main .nd1 h3{
+    margin-top: 20px;
+    color: red;
+}
+main .nd1 .color p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+main .nd1 .color .w1{
+    margin-left: 80px;
+    margin-right: 10px;
+}
+main .nd1 .color button{
+    width: 50px;    
+}
+main .nd1 .size p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+main .nd1 .size .w1{
+    margin-left: 80px;
+    margin-right: 10px;
+}
+main .nd1 .size button{
+    width: 50px;
+    margin-bottom: 30px;    
+}
+button {  
+    -webkit-transition-duration: 0.5s; 
+    /* Safari */  
+    transition-duration: 0.5s;
+} 
+main .nd1 .size  button:hover {  
+    background-color: red; 
+    border: #D9D9D9;  
+    color: white;
+    width: 60px;
+    height: 25px;
+    border-radius: 6px;
+    font-size: 17px;
+}
+main .nd1 .color  button:hover {  
+    background-color: red; 
+    border: #D9D9D9;  
+    color: white;
+    width: 60px;
+    height: 25px;
+    border-radius: 6px;
+    font-size: 17px;
+}
+.slide{
+    display: none;
+}
+.number p{
+    margin-right: 30px;
+}
+.number{
+    display: flex;
+}
+.number button{
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.muasp{
+    text-align: center;
+    margin-top: 30px;
+}
+.muasp button{
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+    border: #D9D9D9;
+    background: #F4CBCB;
+}
+.muasp button:hover{
+    background: red;
+    font-size: 18px;
+}
+.muasp .w2{
+    margin-right: 20px;
+}
+.nd1 form input .gsp{
+    
+    margin-left: 50px;
+}
+.nd1 form .dh{
+    margin-top: 30px;
+    margin-bottom:  30px;
+    margin-left: 80px;
+}
+
+footer{
+    border: 0.5px solid #D9D9D9;
+    display: flex;
+    margin-top: 50px;
+}
+footer .logo-1 img{
+    /* border: 1px solid black; */
+    width: 200px;
+    height: 150px;
+    margin-top: 60px;  
+    margin-left: 50px;
+    margin-right: 90px;
+    margin-bottom: 60px;
+}
+footer .nd1{
+    /* border: 1px solid black; */
+    margin-top: 85px;
+    margin-left: 100px;
+}
+footer .nd1 p{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+footer .nd2{
+    /* border: 1px solid black; */
+    margin-top: 40px;
+    margin-left: 100px;
+    padding: 20px;
+}
+footer .nd2 h4{
+    text-align: center;
+    margin-bottom: 20px;
+}
+footer .nd2 p{
+    margin-bottom: 20px;
+}
